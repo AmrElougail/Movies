@@ -1,4 +1,3 @@
-/** Simple Reset - START */
 html {
     box-sizing: border-box;
     font-size: 16px;
@@ -25,7 +24,7 @@ img {
 }
 
 
-/** Global Styles - START */
+/* Global Styles */
 body {
     margin: 0;
     padding: 0;
@@ -56,14 +55,14 @@ body.loading .loader {
     visibility: visible;
 }
 
-/** Animations - START **/
+/* Animations */
 @keyframes loader-anim {
     to {
         transform: rotate(360deg);
     }
 }
 
-/** Header - START **/
+/* Header*/
 .main-header {
     padding: 1rem;
     background: rgb(0, 0, 0);
@@ -117,8 +116,7 @@ body.loading .loader {
     cursor: pointer;
 }
 
-
-/** Main Content - START **/
+/* Main Content*/
 main.content {
     padding: 2rem 1rem 0 1rem;
     display: flex;
@@ -290,7 +288,7 @@ main.content {
     font-size: 18px;
 }
 
-/** Movie Item - START **/
+/* Movie Item */
 .movie-item {
     width: calc((100% - (var(--result-grid-column, 2) * .5rem)) / var(--result-grid-column, 3));
     flex: 0 0 calc((100% - (var(--result-grid-column, 2) * 0.5rem)) / var(--result-grid-column, 3));
