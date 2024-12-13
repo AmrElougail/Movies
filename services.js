@@ -3,13 +3,6 @@
 const API_URL = "https://www.omdbapi.com/";
 const API_KEY = "3ef4ab9e";
 
-/**
- * Fetch movies from omdbapi
- *
- * @param trend
- * @param page
- * @returns {Promise}
- */
 function getMovies(trend, page = 1) {
     return new Promise((resolve, reject) => {
 
@@ -33,11 +26,7 @@ function getMovies(trend, page = 1) {
 }
 
 /**
- * Fetch single movie by ID from omdbapi
- *
- * @param id
- * @returns {Promise}
- */
+ * Fetch single movie by ID */
 function getSingleMovie(id) {
     return new Promise((resolve, reject) => {
 
